@@ -1,0 +1,9 @@
+export class DataProvider {
+    static getLoginData() {
+        return [
+            { username: 'standard_user', password: 'secret_sauce' },
+            { username: 'standard_user', password: 'secret_sauce' },
+            { username: 'locked_out_user', password: 'secret_sauce' }
+        ];
+    }
+}
